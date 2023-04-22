@@ -15,6 +15,7 @@
     <link rel="alternate" type="application/rss+xml" title="Novo &raquo; Comments Feed"
         href="https://promo-theme.com/novo/comments/feed/" />
     <style id='elementor-frontend-inline-css'>
+        
         @font-face {
             font-family: eicons;
             src: url(https://promo-theme.com/novo/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);
@@ -23,6 +24,8 @@
             font-style: normal
         }
     </style>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="min.css">
     <link rel="stylesheet" href="main.css">
@@ -245,8 +248,8 @@
                                 <i class="base-icon-close"></i>
                             </div>
 
-                            <p>En</p>
-                            <p>JA</p>
+                            <p><a style="text-decoration: underline;" href="./index.html">En</a></p>
+                            <p><a href="./Japan.html">Ja</a></p>
                         </div>
                     </div>
                 </div>
@@ -881,13 +884,17 @@
                                     </div>
                                     <div class="banner banner-5d5fcaff87039  arrows-right-bottom pagination-right-bottom"
                                         style=" --transition-speed: 2500ms;  ">
+                                          
 
                                         <div
                                             class="rounded-md shadow-sm position-relative overflow-hidden player_height">
                                             <div class="bg-video-wrapper">
-                                                <div style="height: 600px;" >
-                                                    <div  style=" height: 100%; width: 100%;">
-                                                    <video src="./Images/FRA-ART.index.mp4" height="100%" width="100%"  style="object-fit: cover;" autoplay loop></video></div>
+                                                <div style="height: 600px; text-align: center;" >
+                                                    <div  style=" height: 100%; width: 100%; margin: auto;">
+
+                                                    <video preload="1" id="player" playsinline  data-poster="./Images/content_picture_4.jpg"
+                                                     src="./Images/Fra-Art.com.mp4" height="100%" width="100%"  style="object-fit: cover;" autoplay loop></video>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="row justify-content-center my-5">

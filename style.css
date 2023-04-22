@@ -9089,3 +9089,6 @@ div.product div.images .thumbnails a i {
   display: none;
   right: 20px;
 }
+a{
+  text-decoration: none;
+}
