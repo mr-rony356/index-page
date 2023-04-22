@@ -9083,3 +9083,9 @@ div.product div.images .thumbnails a i {
   min-height: 600px !important;
   color: rgb(255, 255, 255);
 }
+.banner-categories .owl-nav {
+  position: absolute;
+  top: 20px;
+  display: none;
+  right: 20px;
+}
