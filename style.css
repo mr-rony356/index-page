@@ -9076,11 +9076,11 @@ div.product div.images .thumbnails a i {
   background-size: contain !important;
  }
  .banner-about {
-  min-height: 600px;
+  min-height: 90vh;
 
 }
 .external-indent .banner-categories .item {
-  min-height: 600px !important;
+  min-height: 90vh !important;
   color: rgb(255, 255, 255);
 }
 .banner-categories .owl-nav {
@@ -9092,3 +9092,43 @@ div.product div.images .thumbnails a i {
 a{
   text-decoration: none;
 }
+.ytp-chrome-top.ytp-show-cards-title {
+  display: none !important;
+}
+a.ytp-watermark.yt-uix-sessionlink {
+  display: none !important;
+}
+a.ytp-watermark.yt-uix-sessionlink {
+  display: none;
+}
+i.fa-solid.fa-bars {
+  display: none;
+}
+#all {
+  position: relative;
+  overflow: visible !important;
+}
+@media screen and (max-width: 992px) {
+  #all {
+    position: relative;
+    overflow: hidden !important;
+  }
+  .external-indent .banner-categories .item {
+    min-height: 500px !important;
+    color: rgb(255, 255, 255);
+  }
+.banner-about {
+  min-height: 500px;
+
+}
+
+
+}
+@media screen and (max-width: 640px) {
+  .aspect-ratio{
+    height: 285px !important;
+  }
+  
+
+}
+
